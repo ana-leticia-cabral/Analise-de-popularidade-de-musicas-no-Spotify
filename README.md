@@ -19,7 +19,7 @@ A proposta foi inspirada no artigo:
 
 ## 📊 Dados utilizados
 
-O conjunto de dados utilizado para a análise é o ![Spotify Dataset 1921-2020, 600k+ Tracks](https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks) disponível na plataforma do Kaggle:
+O conjunto de dados utilizado para a análise é o [Spotify Dataset 1921-2020, 600k+ Tracks](https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks) disponível na plataforma do Kaggle:
 
 - Arquivos CSV: tracks.csv (111,37 MB) e artists.csv (64,89 MB).
 - Descrição: mais de 600 mil faixas musicais com atributos de áudio detalhados e métricas de popularidade de mais de 1 milhão de artistas.
@@ -41,10 +41,10 @@ O conjunto de dados utilizado para a análise é o ![Spotify Dataset 1921-2020, 
 3. Criação das tabelas no banco de dados  
 4. Tratamento e limpeza dos dados utilizando MySQL  
 5. Exportação da tabela final para o Google Sheets para refinamentos adicionais  
-6. Estrutura da ![planilha](https://docs.google.com/spreadsheets/d/1SyvgF_Soc4T7njGd_d7K2x_BCo35sFWqCeFywoCCoeE/edit?usp=sharing):
+6. Estrutura da [planilha](https://docs.google.com/spreadsheets/d/1SyvgF_Soc4T7njGd_d7K2x_BCo35sFWqCeFywoCCoeE/edit?usp=sharing):
    - Aba 1: dados limpos das músicas (1970–2020)  
    - Aba 2: gêneros de cada artista, organizados com um gênero por linha  
-7. Tratamento dos gêneros por artista utilizando ![Python](https://colab.research.google.com/drive/1tv95uE99wxlJf31LqQJyEWSyTX0SQqdu?usp=sharing)
+7. Tratamento dos gêneros por artista utilizando [Python](https://colab.research.google.com/drive/1tv95uE99wxlJf31LqQJyEWSyTX0SQqdu?usp=sharing)
 
 ### Scripts MySQL 
 
@@ -228,7 +228,7 @@ O gráfico aponta uma **correlação positiva leve** entre o índice de dançabi
 
 O gráfico evidencia uma **correlação negativa** entre a duração de uma faixa e sua popularidade na plataforma. A tendência indica que músicas mais longas tendem a registrar menores índices de popularidade. Ainda assim, a distribuição dos dados aponta exceções: algumas faixas de maior duração conseguem alcançar alta popularidade, embora representem uma parcela minoritária do conjunto analisado.
 
-![O que influencia a popularidade — correlações musicais](image.png)
+![O que influencia a popularidade? ](image-2.png)
 
 ### 3. Como a popularidade de um artista evolui ao longo do tempo?
 
